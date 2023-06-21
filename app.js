@@ -8,8 +8,8 @@ const url = "https://public.tableau.com/views/SprocketCentralCustomerSpendingBre
 const vizContainer = document.getElementById('vizContainer');
 const options = {
     hideTabs: true,
-    height: 900,
-    width: 1800,
+    height: 500,
+    width: 2000,
     onFirstInteraction: function() {
         workbook = viz.getWorkbook();
         activeSheet = workbook.getActiveSheet();
